@@ -1,0 +1,34 @@
+{
+  "name": "dginxreal/laravel-auth",
+  "description": "DGINXREAL Laravel Auth Package",
+  "type": "laravel-package",
+  "license": "MIT",
+  "version": "1.0.0",
+  "autoload": {
+    "psr-4": {
+      "DGINXReal\\Auth\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Daniel Elskamp",
+      "email": "dginx@pm.me",
+      "homepage": "https://dginx.de"
+    }
+  ],
+  "require": {
+    "php": "^8.0"
+  },
+  "require-dev": {
+    "laravel/framework": "^11.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "DGINXReal\\Auth\\Providers\\AuthServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
