@@ -1,6 +1,6 @@
 <?php
 
-namespace DGINXReal\Providers;
+namespace DGINXReal\Auth\Providers;
 
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\ServiceProvider;
